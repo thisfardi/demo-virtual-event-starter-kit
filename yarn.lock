@@ -2,7 +2,15 @@
 # yarn lockfile v1
 
 
-"@agility/content-fetch@1.0.0", "@agility/content-fetch@^1.0.0":
+"@agility/content-fetch@1.1.5":
+  version "1.1.5"
+  resolved "https://registry.yarnpkg.com/@agility/content-fetch/-/content-fetch-1.1.5.tgz#b6fe8dc769a32ce757d65b4f1ff278f418e514d3"
+  integrity sha512-86lnIBW335ZjnpRpgP4OKPkmZBu9IEEvF44AL7UNcJEBkkYpCHn5PQaCGvU3E9q/vNOSjDvjNzQGIBawNXQNXQ==
+  dependencies:
+    axios "^0.21.1"
+    axios-cache-adapter "^2.4.1"
+
+"@agility/content-fetch@^1.0.0":
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/@agility/content-fetch/-/content-fetch-1.0.0.tgz#a945aa1abf21c093a6688494ab5a15d1282774d9"
   integrity sha512-cG8XMT4OtlxbuEk7DW4jwe2MK5WuCvu4vClajjOD4DerkkINtWGfvt92XHlcFQ9Az4RmBnOR4/LQMnH3l7AjXg==
@@ -1401,6 +1409,13 @@ axios@^0.18.1:
   dependencies:
     follow-redirects "1.5.10"
     is-buffer "^2.0.2"
+
+axios@^0.21.1:
+  version "0.21.4"
+  resolved "https://registry.yarnpkg.com/axios/-/axios-0.21.4.tgz#c67b90dc0568e5c1cf2b0b858c43ba28e2eda575"
+  integrity sha512-ut5vewkiu8jjGBdqpM44XxjuCjq9LAKeHVmoVfHVzy8eHgxxq8SbAVQNovDA8mVi05kP0Ea/n/UzcSHcTJQfNg==
+  dependencies:
+    follow-redirects "^1.14.0"
 
 babel-plugin-syntax-jsx@6.18.0:
   version "6.18.0"
@@ -2948,6 +2963,11 @@ follow-redirects@1.5.10:
   integrity sha512-0V5l4Cizzvqt5D44aTXbFZz+FtyXV1vrDN6qrelxtfYQKW0KO0W2T/hkE8xvGa/540LkZlkaUjO4ailYTFtHVQ==
   dependencies:
     debug "=3.1.0"
+
+follow-redirects@^1.14.0:
+  version "1.15.2"
+  resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.15.2.tgz#b460864144ba63f2681096f274c4e57026da2c13"
+  integrity sha512-VQLG33o04KaQ8uYi2tVNbdrWp1QWxNNea+nmIB4EVM28v0hmP17z7aG1+wAkNzVq4KeXTq3221ye5qTJP91JwA==
 
 for-in@^1.0.2:
   version "1.0.2"
