@@ -853,17 +853,17 @@
   resolved "https://registry.yarnpkg.com/@types/prop-types/-/prop-types-15.7.3.tgz#2ab0d5da2e5815f94b0b9d4b95d1e5f243ab2ca7"
   integrity sha512-KfRL3PuHmqQLOG+2tGpRO26Ctg+Cq1E01D2DMriKEATHgWLfeNDmq9e29Q9WIky0dQ3NPkd1mzYH8Lm936Z9qw==
 
-"@types/puppeteer-core@2.0.0":
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/@types/puppeteer-core/-/puppeteer-core-2.0.0.tgz#3b7fbbac53d56b566f5ef096116e1d60d504aa45"
-  integrity sha512-JvoEb7KgEkUet009ZDrtpUER3hheXoHgQByuYpJZ5WWT7LWwMH+0NTqGQXGgoOKzs+G5NA1T4DZwXK79Bhnejw==
+"@types/puppeteer-core@2.1.0":
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/@types/puppeteer-core/-/puppeteer-core-2.1.0.tgz#453debf63b8e6654f41e2bb6075c223a29faa47e"
+  integrity sha512-q1s+x/3HuXQN1Xo9eVhCfRJ2SNfHA/a641iSZQRNnRH55t4jX7TsNWxQN0drLqwbz/Kp8nodJ5rTNYEIKX//gg==
   dependencies:
-    "@types/puppeteer" "*"
+    "@types/puppeteer" "^2"
 
-"@types/puppeteer@*":
-  version "5.4.2"
-  resolved "https://registry.yarnpkg.com/@types/puppeteer/-/puppeteer-5.4.2.tgz#80f3a1f54dedbbf750779716de81401549062072"
-  integrity sha512-yjbHoKjZFOGqA6bIEI2dfBE5UPqU0YGWzP+ipDVP1iGzmlhksVKTBVZfT3Aj3wnvmcJ2PQ9zcncwOwyavmafBw==
+"@types/puppeteer@^2":
+  version "2.1.8"
+  resolved "https://registry.yarnpkg.com/@types/puppeteer/-/puppeteer-2.1.8.tgz#c880b35b7d34ef85806deca7032d959ec5af8498"
+  integrity sha512-sFyFD1yIlBwg8jpCbmi4ngecMI6Uw6iEKyUUglFXOiaZQHTvE8oftAWKK7E5sac1Uce+7uR5iVKWDLKDxmjcSA==
   dependencies:
     "@types/node" "*"
 
